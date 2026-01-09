@@ -24,7 +24,7 @@ def count(trie: Trie, query_seq: str) -> int:
         if len(trie[pointer].children) > 1 or trie[pointer].is_end:
             cnt += 1
 
-        new_index = None # 구현하세요!
+        new_index: int = 0
 
         pointer = new_index
 
